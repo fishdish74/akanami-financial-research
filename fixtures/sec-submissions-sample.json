@@ -1,0 +1,11 @@
+{
+  "filings": {
+    "recent": {
+      "accessionNumber": ["0001045810-26-000001", "0001045810-26-000002"],
+      "filingDate": ["2026-09-28", "not-a-date"],
+      "reportDate": ["2026-07-31", "2026-09-01"],
+      "form": ["10-Q", "8-K"],
+      "primaryDocument": ["nvda-20260731.htm", "bad.htm"]
+    }
+  }
+}

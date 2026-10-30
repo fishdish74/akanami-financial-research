@@ -1,0 +1,48 @@
+{
+  "cik": 2,
+  "entityName": "Economic Period Regression Company",
+  "facts": {
+    "us-gaap": {
+      "RevenueFromContractWithCustomerExcludingAssessedTax": {
+        "label": "Revenue",
+        "units": {
+          "USD": [
+            {"start": "2022-01-01", "end": "2022-12-31", "val": 100, "accn": "0000000002-23-000001", "fy": 2022, "fp": "FY", "form": "10-K", "filed": "2023-02-15"},
+            {"start": "2023-01-01", "end": "2023-12-31", "val": 120, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"},
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 140, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"},
+            {"start": "2025-01-01", "end": "2025-12-31", "val": 160, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"}
+          ]
+        }
+      },
+      "EarningsPerShareDiluted": {
+        "label": "Diluted EPS",
+        "units": {
+          "USD/shares": [
+            {"start": "2022-01-01", "end": "2022-12-31", "val": 2.5, "accn": "0000000002-23-000001", "fy": 2022, "fp": "FY", "form": "10-K", "filed": "2023-02-15"},
+            {"start": "2023-01-01", "end": "2023-12-31", "val": 3.0, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"},
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 3.5, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"},
+            {"start": "2025-01-01", "end": "2025-12-31", "val": 4.0, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"}
+          ]
+        }
+      },
+      "NetIncomeLoss": {
+        "label": "Net Income",
+        "units": {
+          "USD": [
+            {"start": "2025-01-01", "end": "2025-12-31", "val": 16, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"}
+          ]
+        }
+      },
+      "StockholdersEquity": {
+        "label": "Stockholders' Equity",
+        "units": {
+          "USD": [
+            {"end": "2024-12-31", "val": 60, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"},
+            {"end": "2025-09-30", "val": 70, "accn": "0000000002-25-000010", "fy": 2025, "fp": "Q3", "form": "10-Q", "filed": "2025-11-01"},
+            {"end": "2025-12-31", "val": 80, "accn": "0000000002-26-000001", "fy": 2025, "fp": "FY", "form": "10-K", "filed": "2026-02-15"}
+          ]
+        }
+      }
+    }
+  }
+}

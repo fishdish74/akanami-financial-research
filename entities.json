@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {
+      "ticker": "EXAMPLE",
+      "canonical_name": "Example Corporation",
+      "aliases": ["Example Corp."],
+      "exchange": "NASDAQ",
+      "alternate_listings": [],
+      "cik": null
+    }
+  ]
+}

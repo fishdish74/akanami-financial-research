@@ -1,0 +1,114 @@
+{
+  "fixture_notice": "All companies, events, risks, and figures in this file are fictional and exist only to demonstrate deterministic analytics.",
+  "analysis_date": "2026-09-29",
+  "defaults": {"currency": "USD", "monetary_unit": "millions", "shares_unit": "millions", "duration_years": 1},
+  "companies": [
+    {
+      "ticker": "VALX", "company": "Value Works Fictional", "sector": "Industrials", "industry": "Machinery", "as_of": "2026-09-29", "source_quality": "high", "news_score": 35,
+      "financials": {
+        "price_per_share": 20, "eps": 4, "prior_eps": 3.9, "forward_eps": 4.1, "forward_eps_growth": 0.03,
+        "market_cap": 10000, "enterprise_value": 11000, "revenue": 15000, "prior_revenue": 14500,
+        "free_cash_flow": 1800, "prior_free_cash_flow": 1750, "ebitda": 2500, "equity": 8000,
+        "average_equity": 7800, "gross_profit": 5250, "operating_income": 2250, "net_income": 2000,
+        "nopat": 1700, "invested_capital": 9000, "total_debt": 2500, "cash": 1500,
+        "ebit": 2250, "interest_expense": 250, "current_assets": 5000, "current_liabilities": 3000,
+        "receivables": 1800, "shares_outstanding": 500, "revenue_start": 13500, "eps_start": 3.5,
+        "fcf_start": 1500, "cagr_years": 3, "working_capital": 2000, "total_assets": 18000,
+        "retained_earnings": 6000, "total_liabilities": 10000, "operating_cash_flow": 2200,
+        "book_value_per_share": 16, "net_working_capital": 2000, "net_fixed_assets": 7000
+      },
+      "risks": [{"category": "macro_sensitivity", "severity": "medium", "confidence": "high", "evidence": "Fictional cyclical end-market exposure.", "freshness": "2026-09-20"}],
+      "catalysts": []
+    },
+    {
+      "ticker": "GRWX", "company": "Growth Cloud Fictional", "sector": "Technology", "industry": "Software", "as_of": "2026-09-29", "source_quality": "high", "news_score": 70,
+      "financials": {
+        "price_per_share": 200, "eps": 2, "prior_eps": 1.2, "forward_eps": 3, "forward_eps_growth": 0.5,
+        "market_cap": 100000, "enterprise_value": 98000, "revenue": 10000, "prior_revenue": 7000,
+        "free_cash_flow": 2200, "prior_free_cash_flow": 1200, "ebitda": 2400, "equity": 7000,
+        "average_equity": 6500, "gross_profit": 8000, "operating_income": 1800, "net_income": 1000,
+        "nopat": 1400, "invested_capital": 8000, "total_debt": 1000, "cash": 3000,
+        "ebit": 1800, "interest_expense": 100, "current_assets": 6000, "current_liabilities": 2500,
+        "receivables": 2000, "shares_outstanding": 500, "revenue_start": 4000, "eps_start": 0.5,
+        "fcf_start": 500, "cagr_years": 3, "working_capital": 3500, "total_assets": 14000,
+        "retained_earnings": 3000, "total_liabilities": 7000, "operating_cash_flow": 2600,
+        "book_value_per_share": 14, "net_working_capital": 3500, "net_fixed_assets": 2500
+      },
+      "risks": [{"category": "valuation", "severity": "high", "confidence": "high", "evidence": "Fictional valuation multiples are elevated versus the fixture peers.", "freshness": "2026-09-29"}],
+      "catalysts": [{"ticker": "GRWX", "company": "Growth Cloud Fictional", "name": "Fictional product event", "catalyst_type": "product_launch", "expected_date": "2026-10-20", "horizon": "one_month", "importance": "medium", "confidence": "medium", "status": "upcoming", "source": "fictional-fixture", "source_date": "2026-09-25"}]
+    },
+    {
+      "ticker": "QLTY", "company": "Quality Systems Fictional", "sector": "Technology", "industry": "Software", "as_of": "2026-09-29", "source_quality": "high", "news_score": 50,
+      "financials": {
+        "price_per_share": 75, "eps": 3, "prior_eps": 2.6, "forward_eps": 3.4, "forward_eps_growth": 0.13,
+        "market_cap": 30000, "enterprise_value": 29000, "revenue": 8000, "prior_revenue": 7200,
+        "free_cash_flow": 1600, "prior_free_cash_flow": 1350, "ebitda": 2100, "equity": 9000,
+        "average_equity": 8500, "gross_profit": 5600, "operating_income": 1800, "net_income": 1200,
+        "nopat": 1450, "invested_capital": 7000, "total_debt": 1000, "cash": 2000,
+        "ebit": 1800, "interest_expense": 80, "current_assets": 4500, "current_liabilities": 1800,
+        "receivables": 1500, "shares_outstanding": 400, "revenue_start": 5800, "eps_start": 2,
+        "fcf_start": 950, "cagr_years": 3, "working_capital": 2700, "total_assets": 15000,
+        "retained_earnings": 5000, "total_liabilities": 6000, "operating_cash_flow": 2000,
+        "book_value_per_share": 22.5, "net_working_capital": 2700, "net_fixed_assets": 3500
+      },
+      "risks": [{"category": "competition", "severity": "low", "confidence": "medium", "evidence": "Fictional competitive pressure exists but is not described as acute.", "freshness": "2026-09-15"}],
+      "catalysts": [],
+      "dcf_scenarios": [
+        {"name": "Bear", "starting_fcf": 1600000000, "growth_rates": [0.05, 0.05, 0.04, 0.04, 0.03], "projection_period": 5, "discount_rate": 0.11, "terminal_growth_rate": 0.02, "net_debt": -1000000000, "shares_outstanding": 400000000, "currency": "USD"},
+        {"name": "Base", "starting_fcf": 1600000000, "growth_rates": [0.10, 0.09, 0.08, 0.07, 0.06], "projection_period": 5, "discount_rate": 0.09, "terminal_growth_rate": 0.03, "net_debt": -1000000000, "shares_outstanding": 400000000, "currency": "USD"},
+        {"name": "Bull", "starting_fcf": 1600000000, "growth_rates": [0.15, 0.14, 0.12, 0.10, 0.08], "projection_period": 5, "discount_rate": 0.08, "terminal_growth_rate": 0.04, "net_debt": -1000000000, "shares_outstanding": 400000000, "currency": "USD"}
+      ]
+    },
+    {
+      "ticker": "LEVR", "company": "Leveraged Holdings Fictional", "sector": "Consumer", "industry": "Retail", "as_of": "2026-09-29", "financials_as_of": "2025-12-31", "source_quality": "medium", "news_score": 45,
+      "financials": {
+        "price_per_share": 30, "eps": 3, "prior_eps": 3.2, "forward_eps": 2.8, "forward_eps_growth": -0.07,
+        "market_cap": 6000, "enterprise_value": 15000, "revenue": 12000, "prior_revenue": 12500,
+        "free_cash_flow": 500, "prior_free_cash_flow": 700, "ebitda": 1800, "equity": 2000,
+        "average_equity": 2100, "gross_profit": 3600, "operating_income": 1200, "net_income": 600,
+        "nopat": 900, "invested_capital": 11000, "total_debt": 10000, "cash": 1000,
+        "ebit": 1200, "interest_expense": 800, "current_assets": 3000, "current_liabilities": 3500,
+        "receivables": 900, "shares_outstanding": 200, "revenue_start": 13000, "eps_start": 3.5,
+        "fcf_start": 900, "cagr_years": 3, "working_capital": -500, "total_assets": 16000,
+        "retained_earnings": 1000, "total_liabilities": 14000, "operating_cash_flow": 900,
+        "book_value_per_share": 10, "net_working_capital": -500, "net_fixed_assets": 9000
+      },
+      "risks": [{"category": "debt", "severity": "critical", "confidence": "high", "evidence": "Fictional leverage and interest burden are high.", "freshness": "2026-09-20"}],
+      "catalysts": [{"ticker": "LEVR", "company": "Leveraged Holdings Fictional", "name": "Fictional refinancing decision", "catalyst_type": "financing_event", "expected_date": "2026-10-04", "horizon": "one_week", "importance": "high", "confidence": "medium", "status": "uncertain", "source": "fictional-fixture", "source_date": "2026-09-20"}]
+    },
+    {
+      "ticker": "CATX", "company": "Catalyst Labs Fictional", "sector": "Healthcare", "industry": "Biotechnology", "as_of": "2026-09-29", "source_quality": "medium", "news_score": 95,
+      "financials": {
+        "price_per_share": 12, "eps": -1, "prior_eps": -0.8, "forward_eps": null, "forward_eps_growth": null,
+        "market_cap": 2400, "enterprise_value": 1800, "revenue": 300, "prior_revenue": 250,
+        "free_cash_flow": -400, "prior_free_cash_flow": -350, "ebitda": -300, "equity": 800,
+        "average_equity": 850, "gross_profit": 180, "operating_income": -350, "net_income": -200,
+        "nopat": -300, "invested_capital": 700, "total_debt": 100, "cash": 700,
+        "ebit": -350, "interest_expense": 20, "current_assets": 900, "current_liabilities": 250,
+        "receivables": 50, "shares_outstanding": 200, "revenue_start": 100, "eps_start": null,
+        "fcf_start": null, "cagr_years": 3, "working_capital": 650, "total_assets": 1400,
+        "retained_earnings": -900, "total_liabilities": 600, "operating_cash_flow": -350,
+        "book_value_per_share": 4, "net_working_capital": 650, "net_fixed_assets": 100
+      },
+      "risks": [{"category": "regulatory", "severity": "critical", "confidence": "high", "evidence": "Outcome depends on a fictional binary regulatory decision.", "freshness": "2026-09-29"}],
+      "catalysts": [{"ticker": "CATX", "company": "Catalyst Labs Fictional", "name": "Fictional regulatory decision", "catalyst_type": "regulatory_decision", "expected_date": "2026-09-30", "horizon": "one_day", "importance": "critical", "confidence": "high", "status": "upcoming", "source": "fictional-fixture", "source_date": "2026-09-29"}]
+    },
+    {
+      "ticker": "STDY", "company": "Steady Compounder Fictional", "sector": "Industrials", "industry": "Business Services", "as_of": "2026-09-29", "source_quality": "high", "news_score": 30,
+      "financials": {
+        "price_per_share": 60, "eps": 3, "prior_eps": 2.8, "forward_eps": 3.3, "forward_eps_growth": 0.1,
+        "market_cap": 24000, "enterprise_value": 25000, "revenue": 9000, "prior_revenue": 8400,
+        "free_cash_flow": 1500, "prior_free_cash_flow": 1350, "ebitda": 2200, "equity": 7500,
+        "average_equity": 7200, "gross_profit": 4500, "operating_income": 1900, "net_income": 1200,
+        "nopat": 1500, "invested_capital": 8000, "total_debt": 2000, "cash": 1000,
+        "ebit": 1900, "interest_expense": 150, "current_assets": 4000, "current_liabilities": 2000,
+        "receivables": 1400, "shares_outstanding": 400, "revenue_start": 7200, "eps_start": 2.2,
+        "fcf_start": 1050, "cagr_years": 3, "working_capital": 2000, "total_assets": 14000,
+        "retained_earnings": 4800, "total_liabilities": 6500, "operating_cash_flow": 1900,
+        "book_value_per_share": 18.75, "net_working_capital": 2000, "net_fixed_assets": 6000
+      },
+      "risks": [{"category": "customer_concentration", "severity": "medium", "confidence": "medium", "evidence": "A fictional customer concentration risk is present.", "freshness": "2026-09-01"}],
+      "catalysts": []
+    }
+  ]
+}

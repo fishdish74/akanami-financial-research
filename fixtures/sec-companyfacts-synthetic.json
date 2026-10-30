@@ -1,0 +1,96 @@
+{
+  "cik": 1,
+  "entityName": "Synthetic Filing Test Company",
+  "facts": {
+    "dei": {
+      "EntityCommonStockSharesOutstanding": {
+        "label": "Shares Outstanding",
+        "units": {
+          "shares": [
+            {"end": "2024-12-31", "val": 1000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      }
+    },
+    "us-gaap": {
+      "Revenues": {
+        "label": "Revenue",
+        "units": {
+          "USD": [
+            {"start": "2023-01-01", "end": "2023-12-31", "val": 100000000, "accn": "0000000001-24-000001", "fy": 2023, "fp": "FY", "form": "10-K", "filed": "2024-02-01"},
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 120000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"},
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 121000000, "accn": "0000000001-25-000001A", "fy": 2024, "fp": "FY", "form": "10-K/A", "filed": "2025-03-01"},
+            {"start": "2025-01-01", "end": "2025-06-30", "val": 70000000, "accn": "0000000001-25-000010", "fy": 2025, "fp": "Q2", "form": "10-Q", "filed": "2025-08-01"},
+            {"start": "2025-04-01", "end": "2025-06-30", "val": 36000000, "accn": "0000000001-25-000010", "fy": 2025, "fp": "Q2", "form": "10-Q", "filed": "2025-08-01"}
+          ]
+        }
+      },
+      "NetIncomeLoss": {
+        "label": "Net Income",
+        "units": {
+          "USD": [
+            {"start": "2023-01-01", "end": "2023-12-31", "val": 10000000, "accn": "0000000001-24-000001", "fy": 2023, "fp": "FY", "form": "10-K", "filed": "2024-02-01"},
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 15000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "OperatingIncomeLoss": {
+        "label": "Operating Income",
+        "units": {
+          "USD": [
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 20000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "label": "Operating Cash Flow",
+        "units": {
+          "USD": [
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 18000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "PaymentsToAcquirePropertyPlantAndEquipment": {
+        "label": "Capital Expenditures",
+        "units": {
+          "USD": [
+            {"start": "2024-01-01", "end": "2024-12-31", "val": 3000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "CashAndCashEquivalentsAtCarryingValue": {
+        "label": "Cash",
+        "units": {
+          "USD": [
+            {"end": "2024-12-31", "val": 9000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "Assets": {
+        "label": "Assets",
+        "units": {
+          "USD": [
+            {"end": "2024-12-31", "val": 80000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "Liabilities": {
+        "label": "Liabilities",
+        "units": {
+          "USD": [
+            {"end": "2024-12-31", "val": 30000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      },
+      "StockholdersEquity": {
+        "label": "Equity",
+        "units": {
+          "USD": [
+            {"end": "2023-12-31", "val": 40000000, "accn": "0000000001-24-000001", "fy": 2023, "fp": "FY", "form": "10-K", "filed": "2024-02-01"},
+            {"end": "2024-12-31", "val": 50000000, "accn": "0000000001-25-000001", "fy": 2024, "fp": "FY", "form": "10-K", "filed": "2025-02-01"}
+          ]
+        }
+      }
+    }
+  }
+}

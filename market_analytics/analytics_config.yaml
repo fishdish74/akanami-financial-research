@@ -1,0 +1,101 @@
+versions:
+  ranking: ranking-v2
+  calculation: financial-math-v1
+  pipeline: analytics-v1
+
+freshness_days:
+  price: 3
+  filing: 120
+  fundamentals: 150
+  # FY facts remain current for one annual cadence plus a 90-day grace window.
+  annual_fundamentals: 455
+  estimate: 45
+  news: 14
+  thesis: 180
+
+peer_selection:
+  primary_scope: industry
+  allow_sector_fallback: false
+  minimum_companies: 2
+
+ranking_weights:
+  one_day:
+    valuation: 0.03
+    quality: 0.03
+    growth: 0.03
+    financial_strength: 0.02
+    catalysts: 0.45
+    news: 0.25
+    risk: 0.09
+    data_quality: 0.10
+  one_week:
+    valuation: 0.05
+    quality: 0.08
+    growth: 0.08
+    financial_strength: 0.04
+    catalysts: 0.35
+    news: 0.20
+    risk: 0.10
+    data_quality: 0.10
+  one_month:
+    valuation: 0.15
+    quality: 0.15
+    growth: 0.15
+    financial_strength: 0.10
+    catalysts: 0.20
+    news: 0.10
+    risk: 0.10
+    data_quality: 0.05
+  one_year:
+    valuation: 0.22
+    quality: 0.22
+    growth: 0.18
+    financial_strength: 0.13
+    catalysts: 0.08
+    news: 0.02
+    risk: 0.10
+    data_quality: 0.05
+
+metric_directions:
+  P/E: lower
+  Forward P/E: lower
+  EV / EBITDA: lower
+  Price / Sales: lower
+  Price / Book: context
+  Earnings Yield: higher
+  FCF Yield: higher
+  ROE: higher
+  ROIC: higher
+  Gross Margin: higher
+  Operating Margin: higher
+  Net Margin: higher
+  FCF Margin: higher
+  Revenue Growth: higher
+  EPS Growth: higher
+  FCF Growth: higher
+  Debt / Equity: lower
+  Net Debt / EBITDA: lower
+  Interest Coverage: higher
+  Current Ratio: context
+
+sector_relevance:
+  default:
+    Price / Book: weak
+    EV / EBITDA: relevant
+    Rule of 40: not_applicable
+  Software:
+    Price / Book: weak
+    EV / EBITDA: relevant
+    Rule of 40: relevant
+  Banks:
+    Price / Book: relevant
+    EV / EBITDA: not_applicable
+    Rule of 40: not_applicable
+  Insurance:
+    Price / Book: relevant
+    EV / EBITDA: weak
+    Rule of 40: not_applicable
+  REITs:
+    Price / Book: weak
+    EV / EBITDA: weak
+    Rule of 40: not_applicable

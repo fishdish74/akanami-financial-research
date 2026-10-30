@@ -1,0 +1,33 @@
+mapping_version: sec-xbrl-v2
+concepts:
+  us-gaap:
+    RevenueFromContractWithCustomerExcludingAssessedTax: {metric: revenue, priority: 1, units: [USD], kind: flow}
+    SalesRevenueNet: {metric: revenue, priority: 2, units: [USD], kind: flow}
+    Revenues: {metric: revenue, priority: 3, units: [USD], kind: flow}
+    GrossProfit: {metric: gross_profit, priority: 1, units: [USD], kind: flow}
+    OperatingIncomeLoss: {metric: operating_income, priority: 1, units: [USD], kind: flow}
+    NetIncomeLoss: {metric: net_income, priority: 1, units: [USD], kind: flow}
+    NetCashProvidedByUsedInOperatingActivities: {metric: operating_cash_flow, priority: 1, units: [USD], kind: flow}
+    PaymentsToAcquirePropertyPlantAndEquipment: {metric: capex, priority: 1, units: [USD], kind: flow}
+    Assets: {metric: total_assets, priority: 1, units: [USD], kind: instant}
+    Liabilities: {metric: total_liabilities, priority: 1, units: [USD], kind: instant}
+    AssetsCurrent: {metric: current_assets, priority: 1, units: [USD], kind: instant}
+    LiabilitiesCurrent: {metric: current_liabilities, priority: 1, units: [USD], kind: instant}
+    CashAndCashEquivalentsAtCarryingValue: {metric: cash, priority: 1, units: [USD], kind: instant}
+    CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents: {metric: cash, priority: 2, units: [USD], kind: instant}
+    StockholdersEquity: {metric: equity, priority: 1, units: [USD], kind: instant}
+    StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest: {metric: equity, priority: 2, units: [USD], kind: instant}
+    RetainedEarningsAccumulatedDeficit: {metric: retained_earnings, priority: 1, units: [USD], kind: instant}
+    AccountsReceivableNetCurrent: {metric: receivables, priority: 1, units: [USD], kind: instant}
+    InterestExpenseNonOperating: {metric: interest_expense, priority: 1, units: [USD], kind: flow}
+    EarningsPerShareDiluted: {metric: eps, priority: 1, units: [USD/shares], kind: flow}
+    EarningsPerShareBasic: {metric: eps, priority: 2, units: [USD/shares], kind: flow}
+    CommonStockSharesOutstanding: {metric: shares_outstanding, priority: 2, units: [shares], kind: instant}
+    LongTermDebt: {metric: total_debt, priority: 1, units: [USD], kind: instant}
+    LongTermDebtAndFinanceLeaseObligations: {metric: total_debt, priority: 2, units: [USD], kind: instant}
+    LongTermDebtCurrent: {metric: debt_current, priority: 1, units: [USD], kind: instant}
+    LongTermDebtAndFinanceLeaseObligationsCurrent: {metric: debt_current, priority: 2, units: [USD], kind: instant}
+    LongTermDebtNoncurrent: {metric: debt_noncurrent, priority: 1, units: [USD], kind: instant}
+    LongTermDebtAndFinanceLeaseObligationsNoncurrent: {metric: debt_noncurrent, priority: 2, units: [USD], kind: instant}
+  dei:
+    EntityCommonStockSharesOutstanding: {metric: shares_outstanding, priority: 1, units: [shares], kind: instant}

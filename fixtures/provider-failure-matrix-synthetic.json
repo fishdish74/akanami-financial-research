@@ -1,0 +1,20 @@
+{
+  "fixture_notice": "SYNTHETIC / FICTIONAL external-provider failure matrix. No live data.",
+  "cases": [
+    {"name": "auth_failure", "category": "http", "status": 401, "expected": "reject"},
+    {"name": "rate_limit", "category": "http", "status": 429, "expected": "bounded_retry"},
+    {"name": "quota_exhausted", "category": "quota", "expected": "hard_stop"},
+    {"name": "timeout", "category": "network", "expected": "bounded_retry"},
+    {"name": "malformed_json", "category": "payload", "body": "{", "expected": "reject"},
+    {"name": "partial_response", "category": "payload", "body": {"results": [{"ticker": "FICT"}]}, "expected": "isolate"},
+    {"name": "pagination_loop", "category": "pagination", "expected": "reject"},
+    {"name": "schema_drift", "category": "schema", "expected": "reject_required_change"},
+    {"name": "stale_cache", "category": "cache", "expected": "marked_stale"},
+    {"name": "corrected_data", "category": "revision", "expected": "preserve_versions"},
+    {"name": "ticker_reuse", "category": "identity", "expected": "resolve_by_time"},
+    {"name": "delisting", "category": "universe", "expected": "preserve_history"},
+    {"name": "future_dated_record", "category": "point_in_time", "expected": "exclude"},
+    {"name": "ambiguous_adjustment_basis", "category": "price", "expected": "reject"},
+    {"name": "unsupported_historical_range", "category": "entitlement", "expected": "reject"}
+  ]
+}

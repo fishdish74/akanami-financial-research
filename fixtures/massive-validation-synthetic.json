@@ -1,0 +1,87 @@
+{
+  "fixture_notice": "SYNTHETIC Massive-shaped validation fixture; not market data",
+  "metadata": {
+    "request_id": "synthetic-metadata-request",
+    "results": {
+      "active": true,
+      "cik": "0000320193",
+      "composite_figi": "SYNTHETIC-FIGI-AAPL",
+      "currency_name": "usd",
+      "last_updated_utc": "2026-09-30T00:00:00Z",
+      "list_date": "1980-12-12",
+      "name": "Apple Inc.",
+      "primary_exchange": "XNAS",
+      "sic_code": "3571",
+      "sic_description": "ELECTRONIC COMPUTERS",
+      "ticker": "AAPL",
+      "type": "CS"
+    },
+    "status": "OK"
+  },
+  "raw_prices": {
+    "adjusted": false,
+    "request_id": "synthetic-raw-price-request",
+    "results": [
+      {"c": 200.0, "h": 202.0, "l": 198.0, "o": 199.0, "t": 1759147200000, "v": 50000000},
+      {"c": 202.0, "h": 204.0, "l": 200.0, "o": 201.0, "t": 1759233600000, "v": 51000000}
+    ],
+    "status": "OK",
+    "ticker": "AAPL"
+  },
+  "adjusted_prices": {
+    "adjusted": true,
+    "request_id": "synthetic-adjusted-price-request",
+    "results": [
+      {"c": 100.0, "h": 101.0, "l": 99.0, "o": 99.5, "t": 1759147200000, "v": 100000000},
+      {"c": 101.0, "h": 102.0, "l": 100.0, "o": 100.5, "t": 1759233600000, "v": 102000000}
+    ],
+    "status": "OK",
+    "ticker": "AAPL"
+  },
+  "splits": {
+    "request_id": "synthetic-split-request",
+    "results": [
+      {
+        "adjustment_type": "forward_split",
+        "execution_date": "2025-09-30",
+        "historical_adjustment_factor": 0.5,
+        "id": "synthetic-split-id",
+        "split_from": 1,
+        "split_to": 2,
+        "ticker": "AAPL"
+      }
+    ],
+    "status": "OK"
+  },
+  "dividends": {
+    "request_id": "synthetic-dividend-request",
+    "results": [
+      {
+        "cash_amount": 0.26,
+        "currency": "USD",
+        "declaration_date": "2025-07-31",
+        "distribution_type": "recurring",
+        "ex_dividend_date": "2025-08-11",
+        "frequency": 4,
+        "historical_adjustment_factor": 0.997899,
+        "id": "synthetic-dividend-id",
+        "pay_date": "2025-08-14",
+        "record_date": "2025-08-11",
+        "split_adjusted_cash_amount": 0.26,
+        "ticker": "AAPL"
+      }
+    ],
+    "status": "OK"
+  },
+  "ticker_events": {
+    "request_id": "synthetic-ticker-event-request",
+    "results": {
+      "events": [
+        {"date": "2012-05-18", "ticker_change": {"ticker": "FB"}, "type": "ticker_change"},
+        {"date": "2022-06-09", "ticker_change": {"ticker": "META"}, "type": "ticker_change"}
+      ],
+      "name": "Synthetic Meta Platforms"
+    },
+    "status": "OK"
+  }
+}

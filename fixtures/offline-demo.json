@@ -1,0 +1,60 @@
+{
+  "candidates": [
+    {
+      "title": "NVIDIA reports quarterly revenue growth and issues new guidance",
+      "source": "Example Financial Wire",
+      "source_url": "https://example.com/nvidia-quarterly-results?utm_source=test",
+      "published": "2026-09-28T20:00:00Z",
+      "discovered": "2026-09-29T15:00:00Z",
+      "author": "Example Newsroom",
+      "content": "NVIDIA Corporation reported quarterly revenue growth and issued updated guidance. Management described demand as strong, while also identifying supply constraints and customer concentration as risks. This is synthetic fixture text for offline pipeline testing, not market data.",
+      "snippet": "NVIDIA reported quarterly results and updated guidance.",
+      "source_tier": 2,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "NVIDIA quarterly results confirmed by second publication",
+      "source": "Example Business Desk",
+      "source_url": "https://news.example.org/nvidia-quarterly-results-confirmation",
+      "published": "2026-09-28T21:00:00Z",
+      "discovered": "2026-09-29T15:01:00Z",
+      "author": null,
+      "content": "A second synthetic publication describes NVIDIA Corporation quarterly revenue results and guidance. This fixture intentionally resembles the first item so deterministic same-event handling can be exercised without external data.",
+      "snippet": "A second source confirms the NVIDIA quarterly results event.",
+      "source_tier": 3,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "Could NVIDIA turn $1,000 into $1 million by 2035?",
+      "source": "Example Speculation Blog",
+      "source_url": "https://speculation.example.net/nvidia-millionaire?ref=feed",
+      "published": "2026-09-27T12:00:00Z",
+      "discovered": "2026-09-29T15:02:00Z",
+      "author": "Fixture Author",
+      "content": "This synthetic long-range price-prediction article repeats generic statements about NVIDIA and contains no identifiable filing, earnings result, contract, product launch, or other new material event. It exists only to test rejection logic.",
+      "snippet": "A long-range stock-price prediction with no new event.",
+      "source_tier": 4,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "NVIDIA announces supply agreement; management calls demand unprecedented",
+      "source": "Example Industry Journal",
+      "source_url": "https://industry.example.com/nvidia-supply-agreement",
+      "published": "2026-09-29T10:00:00Z",
+      "discovered": "2026-09-29T15:03:00Z",
+      "author": "Industry Desk",
+      "content": "NVIDIA Corporation announced a synthetic supply agreement for fixture testing. Management characterized demand as unprecedented. The source also notes that pricing, delivery volume, duration, and counterparty commitments were not disclosed, creating uncertainty that should remain separate from management rhetoric.",
+      "snippet": "A synthetic supply agreement with promotional management language and missing terms.",
+      "source_tier": 3,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    }
+  ]
+}

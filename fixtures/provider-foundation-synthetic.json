@@ -1,0 +1,131 @@
+{
+  "fixture_notice": "SYNTHETIC / FICTIONAL provider-foundation data. Never use as real market data.",
+  "metadata": [
+    {
+      "ticker": "FICO", "company_name": "Fictional Compute Old, Inc.",
+      "cik": "1234567", "exchange": "XNAS", "sector": "Technology",
+      "industry": "Application Software", "sic": "7372",
+      "listing_date": "2018-01-02", "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry", "source_record_id": "meta-fico-old",
+      "effective_from": "2024-01-01T00:00:00Z", "effective_to": "2025-06-01T00:00:00Z",
+      "observed_at": "2024-01-01T12:00:00Z", "available_at": "2024-01-01T13:00:00Z",
+      "retrieved_at": "2024-01-01T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "FICN", "company_name": "Fictional Compute New, Inc.",
+      "cik": "1234567", "exchange": "XNAS", "sector": "Technology",
+      "industry": "Application Software", "sic": "7372",
+      "listing_date": "2018-01-02", "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": "FICO",
+      "source": "synthetic-registry", "source_record_id": "meta-ficn-new",
+      "effective_from": "2025-06-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2025-05-20T12:00:00Z", "available_at": "2025-05-20T13:00:00Z",
+      "retrieved_at": "2025-05-20T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "PEER", "company_name": "Fictional Peer Software Corp.",
+      "cik": null, "exchange": "XNYS", "sector": "Technology",
+      "industry": "Application Software", "sic": "7372",
+      "listing_date": "2020-02-03", "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry", "source_record_id": "meta-peer",
+      "effective_from": "2024-01-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2024-01-01T12:00:00Z", "available_at": "2024-01-01T13:00:00Z",
+      "retrieved_at": "2024-01-01T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "SECT", "company_name": "Fictional Sector Hardware Corp.",
+      "cik": null, "exchange": "XNAS", "sector": "Technology",
+      "industry": "Computer Hardware", "sic": "3571",
+      "listing_date": "2021-03-04", "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry", "source_record_id": "meta-sect",
+      "effective_from": "2024-01-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2024-01-01T12:00:00Z", "available_at": "2024-01-01T13:00:00Z",
+      "retrieved_at": "2024-01-01T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "CNFL", "company_name": "Fictional Conflict Corp.",
+      "cik": null, "exchange": "XNAS", "sector": "Technology",
+      "industry": "Application Software", "sic": "7372",
+      "listing_date": null, "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry-a", "source_record_id": "meta-cnfl-a",
+      "effective_from": "2025-01-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2025-01-02T12:00:00Z", "available_at": "2025-01-02T13:00:00Z",
+      "retrieved_at": "2025-01-02T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "CNFL", "company_name": "Fictional Conflict Corp.",
+      "cik": null, "exchange": "XNYS", "sector": "Industrials",
+      "industry": "Industrial Machinery", "sic": "3560",
+      "listing_date": null, "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry-b", "source_record_id": "meta-cnfl-b",
+      "effective_from": "2025-01-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2025-01-02T12:00:00Z", "available_at": "2025-01-02T13:00:00Z",
+      "retrieved_at": "2025-01-02T14:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "FUTR", "company_name": "Fictional Future Corp.",
+      "cik": null, "exchange": "XNAS", "sector": "Technology",
+      "industry": "Application Software", "sic": "7372",
+      "listing_date": "2026-01-01", "delisting_date": null, "active": true,
+      "listing_type": "common_stock", "prior_ticker": null,
+      "source": "synthetic-registry", "source_record_id": "meta-future",
+      "effective_from": "2026-01-01T00:00:00Z", "effective_to": null,
+      "observed_at": "2026-01-01T12:00:00Z", "available_at": "2026-01-01T13:00:00Z",
+      "retrieved_at": "2026-01-01T14:00:00Z", "provenance": {"fixture": true}
+    }
+  ],
+  "prices": [
+    {
+      "ticker": "FICN", "trading_date": "2025-06-02",
+      "open": "99", "high": "103", "low": "98", "close": "102",
+      "split_adjusted_close": "51", "dividend_adjusted_close": null,
+      "provider_adjusted_close": "50.5", "provider_adjustment_basis": "split_and_dividend",
+      "total_return_index": "1000", "adjustment_origin": "provider_supplied",
+      "split_event_ids": [], "dividend_treatment": "provider_defined",
+      "volume": "1000000", "currency": "USD", "exchange": "XNAS",
+      "source": "synthetic-prices", "source_record_id": "price-ficn-2025-06-02",
+      "observed_at": "2025-06-02T20:00:00Z", "available_at": "2025-06-02T20:05:00Z",
+      "retrieved_at": "2025-06-02T21:00:00Z", "provenance": {"fixture": true}
+    },
+    {
+      "ticker": "FICN", "trading_date": "2025-06-03",
+      "open": "102", "high": "104", "low": "100", "close": "101",
+      "split_adjusted_close": null, "dividend_adjusted_close": null,
+      "provider_adjusted_close": null, "provider_adjustment_basis": null,
+      "total_return_index": null, "adjustment_origin": null, "split_event_ids": [],
+      "dividend_treatment": null, "volume": "900000", "currency": "USD", "exchange": "XNAS",
+      "source": "synthetic-prices", "source_record_id": "price-ficn-2025-06-03",
+      "observed_at": "2025-06-03T20:00:00Z", "available_at": "2025-06-03T20:05:00Z",
+      "retrieved_at": "2025-06-03T21:00:00Z", "provenance": {"fixture": true, "adjusted_close": "not supplied"}
+    },
+    {
+      "ticker": "FICN", "trading_date": "2026-01-02",
+      "open": "120", "high": "122", "low": "119", "close": "121",
+      "split_adjusted_close": null, "dividend_adjusted_close": null,
+      "provider_adjusted_close": null, "provider_adjustment_basis": null,
+      "total_return_index": null, "adjustment_origin": null, "split_event_ids": [],
+      "dividend_treatment": null, "volume": "800000", "currency": "USD", "exchange": "XNAS",
+      "source": "synthetic-prices", "source_record_id": "price-future",
+      "observed_at": "2026-01-02T20:00:00Z", "available_at": "2026-01-02T20:05:00Z",
+      "retrieved_at": "2026-01-02T21:00:00Z", "provenance": {"fixture": true}
+    }
+  ],
+  "corporate_actions": [
+    {"ticker":"FICN","event_type":"stock_split","announcement_date":"2025-01-10","ex_date":"2025-02-03","effective_date":"2025-02-03","ratio":"2","amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-split","observed_at":"2025-01-10T15:00:00Z","available_at":"2025-01-10T15:05:00Z","retrieved_at":"2025-01-10T16:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"reverse_split","announcement_date":"2025-02-10","ex_date":"2025-03-03","effective_date":"2025-03-03","ratio":"0.1","amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-reverse","observed_at":"2025-02-10T15:00:00Z","available_at":"2025-02-10T15:05:00Z","retrieved_at":"2025-02-10T16:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"cash_dividend","announcement_date":"2025-03-10","ex_date":"2025-04-01","effective_date":"2025-04-01","ratio":null,"amount":"0.25","currency":"USD","old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-cash-dividend","observed_at":"2025-03-10T15:00:00Z","available_at":"2025-03-10T15:05:00Z","retrieved_at":"2025-03-10T16:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"stock_dividend","announcement_date":"2025-03-11","ex_date":"2025-04-02","effective_date":"2025-04-02","ratio":"0.05","amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-stock-dividend","observed_at":"2025-03-11T15:00:00Z","available_at":"2025-03-11T15:05:00Z","retrieved_at":"2025-03-11T16:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"ticker_change","announcement_date":"2025-05-20","ex_date":null,"effective_date":"2025-06-01","ratio":null,"amount":null,"currency":null,"old_ticker":"FICO","new_ticker":"FICN","source":"synthetic-actions","source_record_id":"action-ticker-change","observed_at":"2025-05-20T12:00:00Z","available_at":"2025-05-20T13:00:00Z","retrieved_at":"2025-05-20T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"merger","announcement_date":"2025-06-10","ex_date":null,"effective_date":"2025-07-01","ratio":null,"amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-merger","observed_at":"2025-06-10T12:00:00Z","available_at":"2025-06-10T13:00:00Z","retrieved_at":"2025-06-10T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"acquisition","announcement_date":"2025-06-11","ex_date":null,"effective_date":"2025-07-02","ratio":null,"amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-acquisition","observed_at":"2025-06-11T12:00:00Z","available_at":"2025-06-11T13:00:00Z","retrieved_at":"2025-06-11T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"spin_off","announcement_date":"2025-06-12","ex_date":"2025-07-03","effective_date":"2025-07-03","ratio":null,"amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-spin-off","observed_at":"2025-06-12T12:00:00Z","available_at":"2025-06-12T13:00:00Z","retrieved_at":"2025-06-12T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"delisting","announcement_date":"2025-08-01","ex_date":null,"effective_date":"2025-08-15","ratio":null,"amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-delisting","observed_at":"2025-08-01T12:00:00Z","available_at":"2025-08-01T13:00:00Z","retrieved_at":"2025-08-01T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"relisting","announcement_date":"2025-09-01","ex_date":null,"effective_date":"2025-09-15","ratio":null,"amount":null,"currency":null,"old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-relisting","observed_at":"2025-09-01T12:00:00Z","available_at":"2025-09-01T13:00:00Z","retrieved_at":"2025-09-01T14:00:00Z","provenance":{"fixture":true}},
+    {"ticker":"FICN","event_type":"cash_dividend","announcement_date":"2026-01-10","ex_date":"2026-02-01","effective_date":"2026-02-01","ratio":null,"amount":"0.30","currency":"USD","old_ticker":null,"new_ticker":null,"source":"synthetic-actions","source_record_id":"action-future","observed_at":"2026-01-10T12:00:00Z","available_at":"2026-01-10T13:00:00Z","retrieved_at":"2026-01-10T14:00:00Z","provenance":{"fixture":true}}
+  ]
+}

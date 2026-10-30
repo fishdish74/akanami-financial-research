@@ -1,0 +1,75 @@
+{
+  "fixture_notice": "All content is synthetic and exists only for deterministic offline testing.",
+  "candidates": [
+    {
+      "title": "NVIDIA reports synthetic earnings guidance of $10",
+      "source": "Fixture Wire A",
+      "source_url": "https://fixtures.example/a/earnings",
+      "published": "2026-09-20T20:00:00Z",
+      "discovered": "2026-09-29T16:00:00Z",
+      "author": "Fixture Desk",
+      "content": "Synthetic fixture body shared byte-for-byte across two URLs to exercise syndicated-copy detection. It refers to NVIDIA Corporation earnings and guidance but contains no real market data.",
+      "snippet": "Synthetic NVIDIA earnings fixture.",
+      "source_tier": 2,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "Syndicated copy: NVIDIA reports synthetic earnings guidance of $10",
+      "source": "Fixture Wire B",
+      "source_url": "https://fixtures.example/b/syndicated-earnings",
+      "published": "2026-09-20T20:05:00Z",
+      "discovered": "2026-09-29T16:01:00Z",
+      "author": "Fixture Desk",
+      "content": "Synthetic fixture body shared byte-for-byte across two URLs to exercise syndicated-copy detection. It refers to NVIDIA Corporation earnings and guidance but contains no real market data.",
+      "snippet": "Synthetic syndicated NVIDIA fixture.",
+      "source_tier": 3,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "NVIDIA raises synthetic earnings guidance from $10 to $12",
+      "source": "Fixture Wire A",
+      "source_url": "https://fixtures.example/a/guidance-update",
+      "published": "2026-09-21T13:00:00Z",
+      "discovered": "2026-09-29T16:02:00Z",
+      "author": "Fixture Desk",
+      "content": "This synthetic meaningful-update fixture changes a number and uses an explicit update verb. The numbers are not real financial data and must never be treated as such.",
+      "snippet": "Synthetic guidance update.",
+      "source_tier": 2,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "Analyst repeats NVIDIA price target after no new company event",
+      "source": "Fixture Commentary",
+      "source_url": "https://fixtures.example/commentary/price-target",
+      "published": "2026-09-22T13:00:00Z",
+      "discovered": "2026-09-29T16:03:00Z",
+      "author": "Fixture Commentator",
+      "content": "This generic analyst-rewrite fixture deliberately contains no filing, contract, guidance change, product launch, or other supported company event. It should be deprioritized rather than treated as a new primary fact.",
+      "snippet": "Synthetic analyst rewrite.",
+      "source_tier": 3,
+      "companies": ["NVIDIA Corporation"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    },
+    {
+      "title": "NVIDIA and Example Partner announce synthetic contract with disputed scope",
+      "source": "Fixture Industry Journal",
+      "source_url": "https://fixtures.example/industry/contract",
+      "published": "2026-09-23T13:00:00Z",
+      "discovered": "2026-09-29T16:04:00Z",
+      "author": "Fixture Industry Desk",
+      "content": "NVIDIA Corporation management calls the synthetic contract transformative. Example Partner describes it as a limited pilot. The conflicting descriptions, promotional language, and second company are deliberate test inputs; no statement is real.",
+      "snippet": "Synthetic multi-company contract with conflicting descriptions.",
+      "source_tier": 3,
+      "companies": ["NVIDIA Corporation", "Example Partner"],
+      "tickers": ["NVDA"],
+      "source_type": "manual-fixture"
+    }
+  ]
+}

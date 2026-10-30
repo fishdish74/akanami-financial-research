@@ -1,0 +1,96 @@
+{
+  "fixture_notice": "Synthetic production-shaped custom-XBRL micro-cap fixture; not real market data.",
+  "cik": 1085243,
+  "entityName": "Synthetic Micro-Cap Training Systems, Inc.",
+  "facts": {
+    "dei": {
+      "EntityCommonStockSharesOutstanding": {
+        "label": "Shares Outstanding",
+        "units": {
+          "shares": [
+            {
+              "end": "2025-12-31",
+              "val": 11000000,
+              "accn": "0001085243-26-000001",
+              "fy": 2025,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2026-03-30"
+            }
+          ]
+        }
+      }
+    },
+    "us-gaap": {
+      "Assets": {
+        "label": "Assets",
+        "units": {
+          "USD": [
+            {
+              "end": "2025-12-31",
+              "val": 42000000,
+              "accn": "0001085243-26-000001",
+              "fy": 2025,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2026-03-30"
+            }
+          ]
+        }
+      }
+    },
+    "vtsi": {
+      "Revenues": {
+        "label": "Custom Revenues",
+        "units": {
+          "USD": [
+            {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "val": 38000000,
+              "accn": "0001085243-26-000001",
+              "fy": 2025,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2026-03-30"
+            }
+          ]
+        }
+      },
+      "NetIncomeLoss": {
+        "label": "Custom Net Income Loss",
+        "units": {
+          "USD": [
+            {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "val": 2500000,
+              "accn": "0001085243-26-000001",
+              "fy": 2025,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2026-03-30"
+            }
+          ]
+        }
+      },
+      "AdjustedEBITDA": {
+        "label": "Custom Adjusted EBITDA",
+        "units": {
+          "USD": [
+            {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "val": 6000000,
+              "accn": "0001085243-26-000001",
+              "fy": 2025,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2026-03-30"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
