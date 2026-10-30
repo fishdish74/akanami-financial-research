@@ -14,6 +14,12 @@ The public demonstration is designed to run with synthetic data and without live
 
 The engineering principle is simple: AI may propose structured analysis, while trusted code owns validation, identifiers, budgets, paths, confidence rules, and write permissions.
 
+## Engineering Philosophy
+
+> Consistency without stubbornness. Rigor without unnecessary complexity. Progress without sacrificing correctness.
+
+This philosophy guides Akanami's evidence-driven, contract-first methodology: keep implementation bounded, verify changes through regression testing and independent review, revise assumptions when evidence warrants it, and accept work only through controlled criteria that preserve correctness at every trust boundary.
+
 > **Portfolio scope:** this repository contains source code, public-safe tests, and fictional fixtures. It does **not** contain the working database, provider caches, API credentials, private watchlist, production evaluation records, automation configuration, or original Git history.
 
 Proposed GitHub repository: `akanami-financial-research`
