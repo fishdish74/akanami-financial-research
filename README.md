@@ -59,7 +59,7 @@ This is a research workflow, not a trading system. It does not connect to a brok
 
 ## My role and AI-assisted engineering disclosure
 
-I directed the system's requirements, architecture, safety constraints, review criteria, and acceptance decisions. I used AI coding tools to assist with implementation, test expansion, refactoring, and documentation. I reviewed the resulting behavior against the specified contracts and safety boundaries; I do not claim to have manually authored every line.
+I directed the system's requirements, architecture, safety constraints, review criteria, and acceptance decisions. I used AI coding tools to assist with implementation, test expansion, refactoring, and documentation. I reviewed the resulting behavior against the specified contracts and safety boundaries. I often review code manually, going through line by line finding hard to spot bugs. I do not claim to have manually authored every line.
 
 ## Development methodology
 
